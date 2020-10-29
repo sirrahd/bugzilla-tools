@@ -21,7 +21,7 @@ import (
 
 const (
 	sloResultsURLFlagName   = "slo-results-url"
-	sloResultsURLFlagDefVal = "http://team-slo-resluts/teams"
+	sloResultsURLFlagDefVal = "http://team-slo-results/teams"
 )
 
 func GetTeamsResults(cmd *cobra.Command) (*sloAPI.TeamsResults, error) {
